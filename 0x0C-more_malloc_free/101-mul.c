@@ -84,7 +84,7 @@ int main(int argc, char *argv[])
 			result[len1 + len2 + 1] = carry % 10;
 
 			carry /= 10;
-
+		}
 			if (carry > 0)
 				result[len1 + len2 + 1] += carry;
 		}
